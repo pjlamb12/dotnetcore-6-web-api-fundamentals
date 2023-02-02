@@ -30,6 +30,12 @@ builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+#if DEBUG
+builder.Services.AddTransient<IMailService, LocalMailService>();
+#else
+builder.Services.AddTransient<IMailService, CloudMailService>();
+#endif
+
 builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
 {
 	options.TokenValidationParameters = new()
@@ -44,11 +50,14 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer(options =>
 	};
 });
 
-#if DEBUG
-builder.Services.AddTransient<IMailService, LocalMailService>();
-#else
-builder.Services.AddTransient<IMailService, CloudMailService>();
-#endif
+builder.Services.AddAuthorization(options =>
+{
+	options.AddPolicy("MustBeFromAntwerp", policy =>
+	{
+		policy.RequireAuthenticatedUser();
+		policy.RequireClaim("city", "Antwerp");
+	});
+});
 
 var app = builder.Build();
 
