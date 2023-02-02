@@ -2852,3 +2852,73 @@ LIMIT @__p_0 OFFSET @__p_0
 2023-02-02 09:33:30.959 -07:00 [DBG] Connection id "0HMO57CNRJBQT" completed keep alive response.
 2023-02-02 09:33:30.959 -07:00 [DBG] 'CityInfoContext' disposed.
 2023-02-02 09:33:30.959 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/api/cities?pageSize=2&pageNumber=2 - - - 200 70 application/json;+charset=utf-8 123.1617ms
+2023-02-02 10:04:38.356 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-02 10:04:38.517 -07:00 [DBG] Hosting starting
+2023-02-02 10:04:38.703 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF901BD9753E125923C6593F672F66E5F7B6BAB5)
+2023-02-02 10:04:38.790 -07:00 [INF] Now listening on: https://localhost:7151
+2023-02-02 10:04:38.790 -07:00 [INF] Now listening on: http://localhost:5197
+2023-02-02 10:04:38.790 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-02-02 10:04:38.790 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 10:04:38.791 -07:00 [INF] Hosting environment: Development
+2023-02-02 10:04:38.791 -07:00 [INF] Content root path: /Users/plamb/tutorials/c-sharp/dotnet-core-6-web-api-fundamentals/CityInfo.API/
+2023-02-02 10:04:38.791 -07:00 [DBG] Hosting started
+2023-02-02 10:04:44.150 -07:00 [DBG] Connection id "0HMO57UADKOGR" accepted.
+2023-02-02 10:04:44.151 -07:00 [DBG] Connection id "0HMO57UADKOGR" started.
+2023-02-02 10:04:44.239 -07:00 [DBG] Connection 0HMO57UADKOGR established using the following protocol: "Tls12"
+2023-02-02 10:04:44.284 -07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7151/api/authentication/authenticate application/json 111
+2023-02-02 10:04:44.288 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-02 10:04:44.332 -07:00 [DBG] No candidates found for the request path '/api/authentication/authenticate'
+2023-02-02 10:04:44.332 -07:00 [DBG] Request did not match any endpoints
+2023-02-02 10:04:44.344 -07:00 [DBG] POST requests are not supported
+2023-02-02 10:04:44.361 -07:00 [DBG] Connection id "0HMO57UADKOGR" completed keep alive response.
+2023-02-02 10:04:44.365 -07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7151/api/authentication/authenticate application/json 111 - 404 0 - 81.6780ms
+2023-02-02 10:04:44.366 -07:00 [DBG] Connection id "0HMO57UADKOGR", Request id "0HMO57UADKOGR:00000002": started reading request body.
+2023-02-02 10:04:44.367 -07:00 [DBG] Connection id "0HMO57UADKOGR", Request id "0HMO57UADKOGR:00000002": done reading request body.
+2023-02-02 10:05:09.372 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-02 10:05:09.526 -07:00 [DBG] Hosting starting
+2023-02-02 10:05:09.690 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF901BD9753E125923C6593F672F66E5F7B6BAB5)
+2023-02-02 10:05:09.794 -07:00 [INF] Now listening on: https://localhost:7151
+2023-02-02 10:05:09.794 -07:00 [INF] Now listening on: http://localhost:5197
+2023-02-02 10:05:09.794 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-02-02 10:05:09.795 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 10:05:09.795 -07:00 [INF] Hosting environment: Development
+2023-02-02 10:05:09.795 -07:00 [INF] Content root path: /Users/plamb/tutorials/c-sharp/dotnet-core-6-web-api-fundamentals/CityInfo.API/
+2023-02-02 10:05:09.795 -07:00 [DBG] Hosting started
+2023-02-02 10:05:13.424 -07:00 [DBG] Connection id "0HMO57UJ4PIUT" accepted.
+2023-02-02 10:05:13.426 -07:00 [DBG] Connection id "0HMO57UJ4PIUT" started.
+2023-02-02 10:05:13.499 -07:00 [DBG] Connection 0HMO57UJ4PIUT established using the following protocol: "Tls12"
+2023-02-02 10:05:13.542 -07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7151/api/authentication/authenticate application/json 111
+2023-02-02 10:05:13.546 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-02 10:05:13.592 -07:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2023-02-02 10:05:13.594 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2023-02-02 10:05:13.595 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-02-02 10:05:13.605 -07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-02 10:05:13.609 -07:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-02-02 10:05:13.633 -07:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2023-02-02 10:05:13.634 -07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-02 10:05:13.634 -07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-02 10:05:13.635 -07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-02 10:05:13.635 -07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-02 10:05:13.636 -07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-02 10:05:13.639 -07:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-02-02 10:05:13.640 -07:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2023-02-02 10:05:13.648 -07:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-02-02 10:05:13.652 -07:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2023-02-02 10:05:13.652 -07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-02-02 10:05:13.657 -07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-02-02 10:05:13.669 -07:00 [DBG] Connection id "0HMO57UJ4PIUT", Request id "0HMO57UJ4PIUT:00000002": started reading request body.
+2023-02-02 10:05:13.669 -07:00 [DBG] Connection id "0HMO57UJ4PIUT", Request id "0HMO57UJ4PIUT:00000002": done reading request body.
+2023-02-02 10:05:13.748 -07:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-02-02 10:05:13.748 -07:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-02-02 10:05:13.748 -07:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-02-02 10:05:13.763 -07:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-02-02 10:05:13.835 -07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-02 10:05:13.839 -07:00 [DBG] No information found on request to perform content negotiation.
+2023-02-02 10:05:13.839 -07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-02 10:05:13.839 -07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-02 10:05:13.844 -07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-02-02 10:05:13.844 -07:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-02-02 10:05:13.865 -07:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 227.3361ms
+2023-02-02 10:05:13.868 -07:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2023-02-02 10:05:13.868 -07:00 [DBG] Connection id "0HMO57UJ4PIUT" completed keep alive response.
+2023-02-02 10:05:13.872 -07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7151/api/authentication/authenticate application/json 111 - 200 - text/plain;+charset=utf-8 332.1172ms
