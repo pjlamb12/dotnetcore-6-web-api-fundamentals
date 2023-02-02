@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 
@@ -5,6 +6,7 @@ namespace CityInfo.API.Controllers
 {
 	[Route("api/files")]
 	[ApiController]
+	[Authorize]
 	public class FilesController : ControllerBase
 	{
 		private readonly FileExtensionContentTypeProvider _fileExtensionContentTypeProvider;
