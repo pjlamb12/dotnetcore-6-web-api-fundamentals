@@ -7,9 +7,9 @@ namespace CityInfo.API.Controllers
 {
 	[ApiController]
 	[Route(("api/cities"))]
-	public class CitiesController: ControllerBase
+	public class CitiesController : ControllerBase
 	{
-		
+
 		private readonly ICityInfoRepository _repository;
 		private readonly IMapper _mapper;
 
@@ -20,15 +20,15 @@ namespace CityInfo.API.Controllers
 		}
 
 		[HttpGet]
-		public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities() 
+		public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities([FromQuery] string? name)
 		{
-			var cityEntities = await _repository.GetCitiesAsync();
+			var cityEntities = await _repository.GetCitiesAsync(name);
 
 			return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
 		}
 
 		[HttpGet("{id}")]
-		public async Task<IActionResult> GetCity(int id, bool includePointsOfInterest = false) 
+		public async Task<IActionResult> GetCity(int id, bool includePointsOfInterest = false)
 		{
 			var city = await _repository.GetCityAsync(id, includePointsOfInterest);
 
