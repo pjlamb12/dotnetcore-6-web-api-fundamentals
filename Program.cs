@@ -29,23 +29,23 @@ builder.Services.AddSwaggerGen(setupAction =>
 
 	setupAction.IncludeXmlComments(xmlCommentsFullPath);
 
-	// setupAction.AddSecurityDefinition("CityInfoApiBearerAuth", new OpenApiSecurityScheme()
-	// {
-	// 	Type = SecuritySchemeType.Http,
-	// 	Scheme = "Bearer",
-	// 	Description = "Input a valid token to access this API"
-	// });
+	setupAction.AddSecurityDefinition("CityInfoApiBearerAuth", new OpenApiSecurityScheme()
+	{
+		Type = SecuritySchemeType.Http,
+		Scheme = "Bearer",
+		Description = "Input a valid token to access this API"
+	});
 
-	// setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
-	// {
-	// 	{
-	// 		new OpenApiSecurityScheme
-	// 		{
-	// 			Reference = new OpenApiReference {
-	// 				Type = ReferenceType.SecurityScheme,
-	// 				Id = "CityInfoApiBearerAuth" }
-	// 		}, new List<string>() }
-	// });
+	setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
+	{
+		{
+			new OpenApiSecurityScheme
+			{
+				Reference = new OpenApiReference {
+					Type = ReferenceType.SecurityScheme,
+					Id = "CityInfoApiBearerAuth" }
+			}, new List<string>() }
+	});
 });
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 builder.Services.AddSingleton<CitiesDataStore>();
