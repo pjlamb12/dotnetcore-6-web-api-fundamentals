@@ -29,6 +29,13 @@ namespace CityInfo.API.Controllers
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<PointOfInterestDto>>> GetPointsOfInterest(int cityId)
 		{
+			var cityName = User.Claims.FirstOrDefault(c => c.Type == "city")?.Value;
+
+			if (!await _repository.CityNameMatchesCityId(cityName, cityId))
+			{
+				return Forbid();
+			}
+
 			if (!await _repository.CityExistsAsync(cityId))
 			{
 				_logger.LogInformation($"City with id {cityId} wasn't found when accessing points of interest.");
