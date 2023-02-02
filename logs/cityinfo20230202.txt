@@ -5147,3 +5147,157 @@ System.Security.Authentication.AuthenticationException: Authentication failed, s
 2023-02-02 11:15:44.901 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/favicon-32x32.png - - - 200 628 image/png 0.4932ms
 2023-02-02 11:15:45.023 -07:00 [DBG] Connection id "0HMO595VV7K8T" completed keep alive response.
 2023-02-02 11:15:45.023 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.6003ms
+2023-02-02 11:17:19.640 -07:00 [DBG] Connection id "0HMO595VV7K8V" received FIN.
+2023-02-02 11:17:19.715 -07:00 [DBG] Connection id "0HMO595VV7K8T" received FIN.
+2023-02-02 11:17:19.808 -07:00 [DBG] Connection id "0HMO595VV7K8V" sending FIN because: "The client closed the connection."
+2023-02-02 11:17:19.808 -07:00 [DBG] Connection id "0HMO595VV7K8T" sending FIN because: "The client closed the connection."
+2023-02-02 11:17:19.809 -07:00 [DBG] Connection id "0HMO595VV7K8V" disconnecting.
+2023-02-02 11:17:19.809 -07:00 [DBG] Connection id "0HMO595VV7K8T" disconnecting.
+2023-02-02 11:17:19.810 -07:00 [DBG] Connection id "0HMO595VV7K8T" stopped.
+2023-02-02 11:17:19.810 -07:00 [DBG] Connection id "0HMO595VV7K8V" stopped.
+2023-02-02 11:18:50.835 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-02 11:18:51.026 -07:00 [DBG] Hosting starting
+2023-02-02 11:18:51.042 -07:00 [INF] User profile is available. Using '/Users/plamb/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-02-02 11:18:51.048 -07:00 [DBG] Reading data from file '/Users/plamb/.aspnet/DataProtection-Keys/key-7aa011d6-5da2-4751-959a-e77ccbfb96c9.xml'.
+2023-02-02 11:18:51.091 -07:00 [DBG] Found key {7aa011d6-5da2-4751-959a-e77ccbfb96c9}.
+2023-02-02 11:18:51.110 -07:00 [DBG] Considering key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} with expiration date 2023-05-03 17:14:32Z as default key.
+2023-02-02 11:18:51.115 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-02 11:18:51.123 -07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-02-02 11:18:51.124 -07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-02-02 11:18:51.131 -07:00 [DBG] Using key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} as the default key.
+2023-02-02 11:18:51.132 -07:00 [DBG] Key ring with default key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} was loaded during application startup.
+2023-02-02 11:18:51.306 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF901BD9753E125923C6593F672F66E5F7B6BAB5)
+2023-02-02 11:18:51.411 -07:00 [INF] Now listening on: https://localhost:7151
+2023-02-02 11:18:51.412 -07:00 [INF] Now listening on: http://localhost:5197
+2023-02-02 11:18:51.412 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-02-02 11:18:51.412 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 11:18:51.412 -07:00 [INF] Hosting environment: Development
+2023-02-02 11:18:51.412 -07:00 [INF] Content root path: /Users/plamb/tutorials/c-sharp/dotnet-core-6-web-api-fundamentals/CityInfo.API/
+2023-02-02 11:18:51.412 -07:00 [DBG] Hosting started
+2023-02-02 11:18:57.461 -07:00 [DBG] Connection id "0HMO597PJNB81" accepted.
+2023-02-02 11:18:57.487 -07:00 [DBG] Connection id "0HMO597PJNB82" accepted.
+2023-02-02 11:18:57.488 -07:00 [DBG] Connection id "0HMO597PJNB81" started.
+2023-02-02 11:18:57.488 -07:00 [DBG] Connection id "0HMO597PJNB82" started.
+2023-02-02 11:18:57.585 -07:00 [DBG] Connection id "0HMO597PJNB83" accepted.
+2023-02-02 11:18:57.611 -07:00 [DBG] Connection id "0HMO597PJNB83" started.
+2023-02-02 11:18:57.612 -07:00 [DBG] Connection id "0HMO597PJNB82" received FIN.
+2023-02-02 11:18:57.612 -07:00 [DBG] Connection id "0HMO597PJNB81" received FIN.
+2023-02-02 11:18:57.691 -07:00 [DBG] Connection 0HMO597PJNB83 established using the following protocol: "Tls12"
+2023-02-02 11:18:57.623 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:18:57.623 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:18:57.703 -07:00 [DBG] Connection id "0HMO597PJNB81" stopped.
+2023-02-02 11:18:57.703 -07:00 [DBG] Connection id "0HMO597PJNB82" stopped.
+2023-02-02 11:18:57.704 -07:00 [DBG] Connection id "0HMO597PJNB82" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:18:57.704 -07:00 [DBG] Connection id "0HMO597PJNB81" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:18:57.740 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/index.html - -
+2023-02-02 11:18:57.743 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-02 11:18:57.876 -07:00 [DBG] Connection id "0HMO597PJNB83" completed keep alive response.
+2023-02-02 11:18:57.881 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/index.html - - - 200 - text/html;charset=utf-8 140.7755ms
+2023-02-02 11:18:57.893 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/swagger-ui.css - -
+2023-02-02 11:18:57.920 -07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-02-02 11:18:57.920 -07:00 [DBG] Connection id "0HMO597PJNB83" completed keep alive response.
+2023-02-02 11:18:57.921 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/swagger-ui.css - - - 200 144929 text/css 27.3873ms
+2023-02-02 11:18:58.084 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/v1/swagger.json - -
+2023-02-02 11:18:58.115 -07:00 [DBG] Connection id "0HMO597PJNB84" accepted.
+2023-02-02 11:18:58.115 -07:00 [DBG] Connection id "0HMO597PJNB84" started.
+2023-02-02 11:18:58.144 -07:00 [DBG] Connection id "0HMO597PJNB84" received FIN.
+2023-02-02 11:18:58.145 -07:00 [DBG] Connection id "0HMO597PJNB85" accepted.
+2023-02-02 11:18:58.171 -07:00 [DBG] Connection id "0HMO597PJNB85" started.
+2023-02-02 11:18:58.171 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:18:58.172 -07:00 [DBG] Connection id "0HMO597PJNB84" stopped.
+2023-02-02 11:18:58.173 -07:00 [DBG] Connection id "0HMO597PJNB84" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:18:58.201 -07:00 [DBG] Connection 0HMO597PJNB85 established using the following protocol: "Tls12"
+2023-02-02 11:18:58.203 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/favicon-32x32.png - -
+2023-02-02 11:18:58.207 -07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-02-02 11:18:58.208 -07:00 [DBG] Connection id "0HMO597PJNB85" completed keep alive response.
+2023-02-02 11:18:58.208 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/favicon-32x32.png - - - 200 628 image/png 4.7355ms
+2023-02-02 11:18:58.283 -07:00 [DBG] Connection id "0HMO597PJNB83" completed keep alive response.
+2023-02-02 11:18:58.283 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.2579ms
+2023-02-02 11:20:16.381 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-02 11:20:16.584 -07:00 [DBG] Hosting starting
+2023-02-02 11:20:16.601 -07:00 [INF] User profile is available. Using '/Users/plamb/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-02-02 11:20:16.608 -07:00 [DBG] Reading data from file '/Users/plamb/.aspnet/DataProtection-Keys/key-7aa011d6-5da2-4751-959a-e77ccbfb96c9.xml'.
+2023-02-02 11:20:16.654 -07:00 [DBG] Found key {7aa011d6-5da2-4751-959a-e77ccbfb96c9}.
+2023-02-02 11:20:16.674 -07:00 [DBG] Considering key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} with expiration date 2023-05-03 17:14:32Z as default key.
+2023-02-02 11:20:16.679 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-02-02 11:20:16.688 -07:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2023-02-02 11:20:16.688 -07:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2023-02-02 11:20:16.696 -07:00 [DBG] Using key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} as the default key.
+2023-02-02 11:20:16.697 -07:00 [DBG] Key ring with default key {7aa011d6-5da2-4751-959a-e77ccbfb96c9} was loaded during application startup.
+2023-02-02 11:20:16.868 -07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF901BD9753E125923C6593F672F66E5F7B6BAB5)
+2023-02-02 11:20:16.925 -07:00 [INF] Now listening on: https://localhost:7151
+2023-02-02 11:20:16.925 -07:00 [INF] Now listening on: http://localhost:5197
+2023-02-02 11:20:16.925 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-02-02 11:20:16.925 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-02 11:20:16.925 -07:00 [INF] Hosting environment: Development
+2023-02-02 11:20:16.925 -07:00 [INF] Content root path: /Users/plamb/tutorials/c-sharp/dotnet-core-6-web-api-fundamentals/CityInfo.API/
+2023-02-02 11:20:16.926 -07:00 [DBG] Hosting started
+2023-02-02 11:20:17.883 -07:00 [DBG] Connection id "0HMO598HIM5IL" accepted.
+2023-02-02 11:20:17.883 -07:00 [DBG] Connection id "0HMO598HIM5IM" accepted.
+2023-02-02 11:20:17.886 -07:00 [DBG] Connection id "0HMO598HIM5IL" started.
+2023-02-02 11:20:17.886 -07:00 [DBG] Connection id "0HMO598HIM5IM" started.
+2023-02-02 11:20:18.012 -07:00 [DBG] Connection id "0HMO598HIM5IN" accepted.
+2023-02-02 11:20:18.012 -07:00 [DBG] Connection id "0HMO598HIM5IN" started.
+2023-02-02 11:20:18.013 -07:00 [DBG] Connection id "0HMO598HIM5IL" received FIN.
+2023-02-02 11:20:18.013 -07:00 [DBG] Connection id "0HMO598HIM5IM" received FIN.
+2023-02-02 11:20:18.083 -07:00 [DBG] Connection 0HMO598HIM5IN established using the following protocol: "Tls12"
+2023-02-02 11:20:18.072 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:20:18.072 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:20:18.105 -07:00 [DBG] Connection id "0HMO598HIM5IM" stopped.
+2023-02-02 11:20:18.105 -07:00 [DBG] Connection id "0HMO598HIM5IL" stopped.
+2023-02-02 11:20:18.106 -07:00 [DBG] Connection id "0HMO598HIM5IM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:20:18.106 -07:00 [DBG] Connection id "0HMO598HIM5IL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:20:18.134 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/index.html - -
+2023-02-02 11:20:18.136 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-02 11:20:18.261 -07:00 [DBG] Connection id "0HMO598HIM5IN" completed keep alive response.
+2023-02-02 11:20:18.265 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/index.html - - - 200 - text/html;charset=utf-8 131.5324ms
+2023-02-02 11:20:18.281 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/swagger-ui.css - -
+2023-02-02 11:20:18.300 -07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-02-02 11:20:18.300 -07:00 [DBG] Connection id "0HMO598HIM5IN" completed keep alive response.
+2023-02-02 11:20:18.300 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/swagger-ui.css - - - 200 144929 text/css 19.0252ms
+2023-02-02 11:20:18.464 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/v1/swagger.json - -
+2023-02-02 11:20:18.483 -07:00 [DBG] Connection id "0HMO598HIM5IO" accepted.
+2023-02-02 11:20:18.484 -07:00 [DBG] Connection id "0HMO598HIM5IO" started.
+2023-02-02 11:20:18.562 -07:00 [DBG] Connection id "0HMO598HIM5IO" received FIN.
+2023-02-02 11:20:18.563 -07:00 [DBG] Connection id "0HMO598HIM5IP" accepted.
+2023-02-02 11:20:18.563 -07:00 [DBG] Connection id "0HMO598HIM5IP" started.
+2023-02-02 11:20:18.563 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-02 11:20:18.563 -07:00 [DBG] Connection id "0HMO598HIM5IO" stopped.
+2023-02-02 11:20:18.563 -07:00 [DBG] Connection id "0HMO598HIM5IO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-02 11:20:18.588 -07:00 [DBG] Connection 0HMO598HIM5IP established using the following protocol: "Tls12"
+2023-02-02 11:20:18.613 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7151/swagger/favicon-32x32.png - -
+2023-02-02 11:20:18.613 -07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-02-02 11:20:18.613 -07:00 [DBG] Connection id "0HMO598HIM5IP" completed keep alive response.
+2023-02-02 11:20:18.613 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/favicon-32x32.png - - - 200 628 image/png 0.3652ms
+2023-02-02 11:20:18.714 -07:00 [DBG] Connection id "0HMO598HIM5IN" completed keep alive response.
+2023-02-02 11:20:18.714 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7151/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.9764ms
